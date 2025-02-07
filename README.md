@@ -9,6 +9,7 @@
 ## Flow:
 
 - Open 2 terminal windows
+- Install dependencies: `npm i`
 - Boot up servers (as cpus available) > `pm2 start ecosystem.config.js`
   - Ports Available: localhost:5000-5007 (as defined in ecosystem config)
 - Boot up load balancer > `node load-balancers/{algorithm type}`. Algorithm types:
